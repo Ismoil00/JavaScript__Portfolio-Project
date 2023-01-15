@@ -9,7 +9,7 @@
       name="Description"
       content="This website is for Showing my Portfolio for job application purposes!"
     />
-    <title>Портфолио Исмоила</title>
+    <title>Ismoil's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/portfolio_Icon.png" />
     <link
@@ -21,40 +21,490 @@
   <body>
     <div>
       <img
-        src="images/open.png"
-        alt="open navigation bar icon"
+        src="images/menu-icon.png"
         width="40"
         id="openNavIcon"
         loading="lazy"
       />
     </div>
     <nav id="navBar">
-      <a href="#nameSec">Дом</a>
-      <a href="#aboutmeSec">Обо мне</a>
-      <a href="#portfolioSec">Портфолио</a>
-      <a href="#skillSec">Навыки</a>
-      <a href="#contacts">Контакты</a>
+      <a href="#nameSec">Home</a>
+      <a href="#aboutmeSec">About me</a>
+      <a href="" id="portRef">Portfolio</a>
+      <a href="#skillSec">Skills</a>
+      <a href="#contacts">Contacts</a>
     </nav>
     <main>
       <section id="nameSec">
         <div class="nameSec_name">
-          <h1>Шарифов Исмоил</h1>
+          <h1>Sharifov Ismoil</h1>
           <div class="name_whiteSpace"></div>
         </div>
         <div class="nameSec_job">
-          <p>Front-end Разработчик</p>
+          <p>Front-end Developer</p>
           <div class="job_whiteSpace"></div>
         </div>
       </section>
       <section id="aboutmeSec">
         <p>
-          Фронтенд-разработчик, который глубоко заботится o пользовательском
-          опыте. Серьезная страсть к дизайну пользовательского интерфейса и
-          новым технологиям.
+          Front-end developer who cares deeply about user experience. Serious
+          passion for UI design and new technologies. The Goal is to become
+          Full-stack Developer and never stop growing.
         </p>
-        <p id="aboutMeText">ОБО МНЕ</p>
+        <p id="aboutMeText">ABOUT ME</p>
       </section>
-      <section id="portfolioSec">
+      <!-- ******************************************************************************** -->
+      <!-- Mobile Layout Section -->
+      <section id="mobilePort">
+        <div id="01" class="mobileDiv">
+          <article class="mobilePort__description">
+            <p class="mobilePort__orderNumber">01</p>
+            <p class="mobilePort__projectName">To Do List App</p>
+            <p class="mobilePort__usedTeches">React JS, CSS и Git (GitHub)</p>
+            <p class="mobilePort__projectExpl">
+              The App is used to record tasks. You can track completed/active
+              tasks. Add them to favorites, edit and delete them as well.
+            </p>
+            <div class="mobilePort__BtnsDiv">
+              <button class="mobilePort__webBtn">
+                <a
+                  href="https://ismoil00.github.io/React_JS-todos-app/#/"
+                  target="_blank"
+                  class="mobilePort__webA"
+                  >Website</a
+                >
+              </button>
+              <button class="mobilePort__codeBtn">
+                <a
+                  href="https://github.com/Ismoil00/React_JS-todos-app"
+                  target="_blank"
+                  class="mobilePort__codeA"
+                  >GitHub Repository</a
+                >
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="mobilePort__photos">
+              <img
+                src="images/React_ToDoApp01.png"
+                width="100px"
+                loading="lazy"
+              />
+            </div>
+          </article>
+        </div>
+        <div id="02" class="mobileDiv">
+          <article class="mobilePort__description">
+            <p class="mobilePort__orderNumber">02</p>
+            <p class="mobilePort__projectName">Recipe App</p>
+            <p class="mobilePort__usedTeches">HTML, CSS, React JS и API</p>
+            <p class="mobilePort__projectExpl">
+              This application helps to cook different dishes. You can save
+              favorites, read more information about each dish, and even watch
+              YouTube videos.
+            </p>
+            <div class="mobilePort__BtnsDiv">
+              <button class="mobilePort__webBtn">
+                <a
+                  href="https://ismoil00.github.io/JavaScript-Recipe-App/"
+                  target="_blank"
+                  class="mobilePort__webA"
+                  >Website</a
+                >
+              </button>
+              <button class="mobilePort__codeBtn">
+                <a
+                  href="https://github.com/Ismoil00/JavaScript-Recipe-App.git"
+                  target="_blank"
+                  class="mobilePort__codeA"
+                  >GitHub Repository</a
+                >
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="mobilePort__photos">
+              <img src="images/recipeApp01.png" width="100px" loading="lazy" />
+            </div>
+          </article>
+        </div>
+        <div id="03" class="mobileDiv">
+          <article class="mobilePort__description">
+            <p class="mobilePort__orderNumber">03</p>
+            <p class="mobilePort__projectName">Business Website</p>
+            <p class="mobilePort__usedTeches">HTML, CSS и JavaScript</p>
+            <p class="mobilePort__projectExpl">
+              This is a business website to showcase their work and products. it
+              is fully animated and contains a contact form.
+            </p>
+            <div class="mobilePort__BtnsDiv">
+              <button class="mobilePort__webBtn">
+                <a
+                  href="https://ismoil00.github.io/JavaScript-Business-Website/"
+                  target="_blank"
+                  class="mobilePort__webA"
+                  >Website</a
+                >
+              </button>
+              <button class="mobilePort__codeBtn">
+                <a
+                  href="https://github.com/Ismoil00/JavaScript-Business-Website"
+                  target="_blank"
+                  class="mobilePort__codeA"
+                  >GitHub Repository</a
+                >
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="mobilePort__photos">
+              <img
+                src="images/businessWeb01.png"
+                width="100px"
+                loading="lazy"
+              />
+            </div>
+          </article>
+        </div>
+        <div id="04" class="mobileDiv">
+          <article class="mobilePort__description">
+            <p class="mobilePort__orderNumber">04</p>
+            <p class="mobilePort__projectName">Weather App</p>
+            <p class="mobilePort__usedTeches">
+              JavaScript, HTML, CSS and open weather API
+            </p>
+            <p class="mobilePort__projectExpl">
+              This weather app uses an open API. You search for a city and find
+              general information on the main page. However, clicking on 'More
+              Information' button gets more related info.
+            </p>
+            <div class="mobilePort__BtnsDiv">
+              <button class="mobilePort__webBtn">
+                <a
+                  href="https://ismoil00.github.io/JavaScript-Weather-App/"
+                  target="_blank"
+                  class="mobilePort__webA"
+                  >Website</a
+                >
+              </button>
+              <button class="mobilePort__codeBtn">
+                <a
+                  href="https://github.com/Ismoil00/JavaScript-Weather-App.git"
+                  target="_blank"
+                  class="mobilePort__codeA"
+                  >GitHub Repository</a
+                >
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="mobilePort__photos">
+              <img src="images/weatherApp01.png" width="100px" loading="lazy" />
+            </div>
+          </article>
+        </div>
+        <div id="05" class="mobileDiv">
+          <article class="mobilePort__description">
+            <p class="mobilePort__orderNumber">05</p>
+            <p class="mobilePort__projectName">Notes App</p>
+            <p class="mobilePort__usedTeches">HTML, CSS и Vanilla JavaScript</p>
+            <p class="mobilePort__projectExpl">
+              This application is used to save notes. You can view notes, edit
+              and delete.
+            </p>
+            <div class="mobilePort__BtnsDiv">
+              <button class="mobilePort__webBtn">
+                <a
+                  href="https://ismoil00.github.io/JavaScript-Notes-App/"
+                  target="_blank"
+                  class="mobilePort__webA"
+                  >Website</a
+                >
+              </button>
+              <button class="mobilePort__codeBtn">
+                <a
+                  href="https://github.com/Ismoil00/JavaScript-Notes-App.git"
+                  target="_blank"
+                  class="mobilePort__codeA"
+                  >GitHub Repository</a
+                >
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="mobilePort__photos">
+              <img src="images/notesApp01.png" width="100px" loading="lazy" />
+            </div>
+          </article>
+        </div>
+        <div id="06" class="mobileDiv">
+          <article class="mobilePort__description">
+            <p class="mobilePort__orderNumber">06</p>
+            <p class="mobilePort__projectName">BlackJack Game</p>
+            <p class="mobilePort__usedTeches">HTML, CSS и Vanilla JavaScript</p>
+            <p class="mobilePort__projectExpl">
+              In this game you play cards with the computer. The game is called
+              BLACKJACK. You can win, lose or draw.
+            </p>
+            <div class="mobilePort__BtnsDiv">
+              <button class="mobilePort__webBtn">
+                <a
+                  href="https://ismoil00.github.io/JavaScript-Blackjack-Game/"
+                  target="_blank"
+                  class="mobilePort__webA"
+                  >Website</a
+                >
+              </button>
+              <button class="mobilePort__codeBtn">
+                <a
+                  href="https://github.com/Ismoil00/JavaScript-Blackjack-Game.git"
+                  target="_blank"
+                  class="mobilePort__codeA"
+                  >GitHub Repository</a
+                >
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="mobilePort__photos">
+              <img
+                src="images/blackjackGame01.png"
+                width="100px"
+                loading="lazy"
+              />
+            </div>
+          </article>
+        </div>
+        <div id="07" class="mobileDiv">
+          <article class="mobilePort__description">
+            <p class="mobilePort__orderNumber">07</p>
+            <p class="mobilePort__projectName">Alien Invaders Game</p>
+            <p class="mobilePort__usedTeches">HTML, CSS и Vanilla JavaScript</p>
+            <p class="mobilePort__projectExpl">
+              In this game, you have to kill alien invaders until they get to
+              you. You can also speed them up or down.
+            </p>
+            <div class="mobilePort__BtnsDiv">
+              <button class="mobilePort__webBtn">
+                <a
+                  href="https://ismoil00.github.io/JavaScript-Invaders-Game/"
+                  target="_blank"
+                  class="mobilePort__webA"
+                  >Website</a
+                >
+              </button>
+              <button class="mobilePort__codeBtn">
+                <a
+                  href="https://github.com/Ismoil00/JavaScript-Invaders-Game"
+                  target="_blank"
+                  class="mobilePort__codeA"
+                  >GitHub Repository</a
+                >
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="mobilePort__photos">
+              <img
+                src="images/invadersGame01.png"
+                width="100px"
+                loading="lazy"
+              />
+            </div>
+          </article>
+        </div>
+        <div id="08" class="mobileDiv">
+          <article class="mobilePort__description">
+            <p class="mobilePort__orderNumber">08</p>
+            <p class="mobilePort__projectName">Whaca-mole Game</p>
+            <p class="mobilePort__usedTeches">HTML, CSS и Vanilla JavaScript</p>
+            <p class="mobilePort__projectExpl">
+              In this game, you have to hit the mole as many times as you can.
+              But, you must set a specific time. You can also change the mole's
+              speed.
+            </p>
+            <div class="mobilePort__BtnsDiv">
+              <button class="mobilePort__webBtn">
+                <a
+                  href="https://ismoil00.github.io/JavaScript-Whacamole-Game/"
+                  target="_blank"
+                  class="mobilePort__webA"
+                  >Website</a
+                >
+              </button>
+              <button class="mobilePort__codeBtn">
+                <a
+                  href="https://github.com/Ismoil00/JavaScript-Whacamole-Game"
+                  target="_blank"
+                  class="mobilePort__codeA"
+                  >GitHub Repository</a
+                >
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="mobilePort__photos">
+              <img
+                src="images/whacamoleGame01.png"
+                width="100px"
+                loading="lazy"
+              />
+            </div>
+          </article>
+        </div>
+        <div id="09" class="mobileDiv">
+          <article class="mobilePort__description">
+            <p class="mobilePort__orderNumber">09</p>
+            <p class="mobilePort__projectName">Memory Game</p>
+            <p class="mobilePort__usedTeches">HTML, CSS и Vanilla JavaScript</p>
+            <p class="mobilePort__projectExpl">
+              While playing this memory game, you have to memorize the pictures
+              and match them in pairs. You can play with or without time. This
+              is a very useful memory game.
+            </p>
+            <div class="mobilePort__BtnsDiv">
+              <button class="mobilePort__webBtn">
+                <a
+                  href="https://ismoil00.github.io/JavaScript-Memory-Game/"
+                  target="_blank"
+                  class="mobilePort__webA"
+                  >Website</a
+                >
+              </button>
+              <button class="mobilePort__codeBtn">
+                <a
+                  href="https://github.com/Ismoil00/JavaScript-Memory-Game"
+                  target="_blank"
+                  class="mobilePort__codeA"
+                  >GitHub Repository</a
+                >
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="mobilePort__photos">
+              <img src="images/memoryGame01.png" width="100px" loading="lazy" />
+            </div>
+          </article>
+        </div>
+        <div id="10" class="mobileDiv">
+          <article class="mobilePort__description">
+            <p class="mobilePort__orderNumber">10</p>
+            <p class="mobilePort__projectName">Frogger Game</p>
+            <p class="mobilePort__usedTeches">HTML, CSS и Vanilla JavaScript</p>
+            <p class="mobilePort__projectExpl">
+              In this game, you just need to cross car roads and a river to
+              reach the final spot. the game must be played on time.
+            </p>
+            <div class="mobilePort__BtnsDiv">
+              <button class="mobilePort__webBtn">
+                <a
+                  href="https://ismoil00.github.io/JavaScript-Frogger-Game/"
+                  target="_blank"
+                  class="mobilePort__webA"
+                  >Website</a
+                >
+              </button>
+              <button class="mobilePort__codeBtn">
+                <a
+                  href="https://github.com/Ismoil00/JavaScript-Frogger-Game.git"
+                  target="_blank"
+                  class="mobilePort__codeA"
+                  >GitHub Repository</a
+                >
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="mobilePort__photos">
+              <img
+                src="images/froggerGame01.png"
+                width="100px"
+                loading="lazy"
+              />
+            </div>
+          </article>
+        </div>
+        <div id="11" class="mobileDiv">
+          <article class="mobilePort__description">
+            <p class="mobilePort__orderNumber">11</p>
+            <p class="mobilePort__projectName">Tips Calculator</p>
+            <p class="mobilePort__usedTeches">HTML, CSS и Vanilla JavaScript</p>
+            <p class="mobilePort__projectExpl">
+              This calculator is used to calculate tips for waiters/waitresses
+              (as a percentage per person).
+            </p>
+            <div class="mobilePort__BtnsDiv">
+              <button class="mobilePort__webBtn">
+                <a
+                  href="https://ismoil00.github.io/JavaScript-Tip-Counter/"
+                  target="_blank"
+                  class="mobilePort__webA"
+                  >Website</a
+                >
+              </button>
+              <button class="mobilePort__codeBtn">
+                <a
+                  href="https://github.com/Ismoil00/JavaScript-Tip-Counter.git"
+                  target="_blank"
+                  class="mobilePort__codeA"
+                  >GitHub Repository</a
+                >
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="mobilePort__photos">
+              <img
+                src="images/tipCalculator01.png"
+                width="100px"
+                loading="lazy"
+              />
+            </div>
+          </article>
+        </div>
+        <div id="12" class="mobileDiv">
+          <article class="mobilePort__description">
+            <p class="mobilePort__orderNumber">12</p>
+            <p class="mobilePort__projectName">Attractive Registration Page</p>
+            <p class="mobilePort__usedTeches">HTML, CSS и Vanilla JavaScript</p>
+            <p class="mobilePort__projectExpl">
+              This cool registration page is made with just HTML and CSS.
+            </p>
+            <div class="mobilePort__BtnsDiv">
+              <button class="mobilePort__webBtn">
+                <a
+                  href="https://ismoil00.github.io/Attractive-Registration-Page/"
+                  target="_blank"
+                  class="mobilePort__webA"
+                  >Website</a
+                >
+              </button>
+              <button class="mobilePort__codeBtn">
+                <a
+                  href="https://github.com/Ismoil00/Attractive-Registration-Page.git"
+                  target="_blank"
+                  class="mobilePort__codeA"
+                  >GitHub Repository</a
+                >
+              </button>
+            </div>
+          </article>
+          <article>
+            <div class="mobilePort__photos">
+              <img
+                src="images/registrationPage01.png"
+                width="100px"
+                loading="lazy"
+              />
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- ******************************************************************************** -->
+
+      <section id="desktopPort">
         <article id="portfolio_desc">
           <p id="portfolio_OrderNum"></p>
           <p id="portfolio_ProjName"></p>
@@ -65,7 +515,6 @@
               <div>
                 <img
                   src="images/webicon.png"
-                  alt="This is web Icon"
                   width="22"
                   id="webIcon"
                   loading="lazy"
@@ -88,255 +537,113 @@
           <div class="portfolio_photosDiv reactToDoApp">
             <img
               src="images/React_ToDoApp01.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
+              id="reactFirstPhoto"
             />
             <img
               src="images/React_ToDoApp03.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
             <img
               src="images/React_ToDoApp02.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
             <img
               src="images/React_ToDoApp04.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
           </div>
           <div class="portfolio_photosDiv recipeApp">
-            <img
-              src="images/recipeApp01.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/recipeApp04.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/recipeApp03.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/recipeApp05.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
+            <img src="images/recipeApp01.png" width="100px" loading="lazy" />
+            <img src="images/recipeApp04.png" width="100px" loading="lazy" />
+            <img src="images/recipeApp03.png" width="100px" loading="lazy" />
+            <img src="images/recipeApp05.png" width="100px" loading="lazy" />
           </div>
           <div class="portfolio_photosDiv businessWeb">
-            <img
-              src="images/businessWeb02.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/businessWeb03.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/businessWeb04.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/businessWeb01.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
+            <img src="images/businessWeb02.png" width="100px" loading="lazy" />
+            <img src="images/businessWeb03.png" width="100px" loading="lazy" />
+            <img src="images/businessWeb04.png" width="100px" loading="lazy" />
+            <img src="images/businessWeb01.png" width="100px" loading="lazy" />
           </div>
           <div class="portfolio_photosDiv weatherApp">
-            <img
-              src="images/weatherApp01.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/weatherApp03.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/weatherApp02.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/weatherApp04.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
+            <img src="images/weatherApp01.png" width="100px" loading="lazy" />
+            <img src="images/weatherApp03.png" width="100px" loading="lazy" />
+            <img src="images/weatherApp02.png" width="100px" loading="lazy" />
+            <img src="images/weatherApp04.png" width="100px" loading="lazy" />
           </div>
           <div class="portfolio_photosDiv notesApp">
-            <img
-              src="images/notesApp01.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/notesApp03.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/notesApp02.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/notesApp04.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
+            <img src="images/notesApp01.png" width="100px" loading="lazy" />
+            <img src="images/notesApp03.png" width="100px" loading="lazy" />
+            <img src="images/notesApp02.png" width="100px" loading="lazy" />
+            <img src="images/notesApp04.png" width="100px" loading="lazy" />
           </div>
           <div class="portfolio_photosDiv blackjackGame">
             <img
               src="images/blackjackGame01.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
             <img
               src="images/blackjackGame03.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
             <img
               src="images/blackjackGame02.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
           </div>
           <div class="portfolio_photosDiv invadersGame">
-            <img
-              src="images/invadersGame01.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/invadersGame03.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/invadersGame02.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
+            <img src="images/invadersGame01.png" width="100px" loading="lazy" />
+            <img src="images/invadersGame03.png" width="100px" loading="lazy" />
+            <img src="images/invadersGame02.png" width="100px" loading="lazy" />
           </div>
           <div class="portfolio_photosDiv whacamoleGame">
             <img
               src="images/whacamoleGame01.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
             <img
               src="images/whacamoleGame03.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
             <img
               src="images/whacamoleGame02.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
             <img
               src="images/whacamoleGame04.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
           </div>
           <div class="portfolio_photosDiv memoryGame">
-            <img
-              src="images/memoryGame01.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/memoryGame03.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/memoryGame02.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/memoryGame04.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
+            <img src="images/memoryGame01.png" width="100px" loading="lazy" />
+            <img src="images/memoryGame03.png" width="100px" loading="lazy" />
+            <img src="images/memoryGame02.png" width="100px" loading="lazy" />
+            <img src="images/memoryGame04.png" width="100px" loading="lazy" />
           </div>
           <div class="portfolio_photosDiv froggerGame">
-            <img
-              src="images/froggerGame01.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/froggerGame03.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
-            <img
-              src="images/froggerGame02.png"
-              alt="This is my Portfolio Photo"
-              width="100px"
-              loading="lazy"
-            />
+            <img src="images/froggerGame01.png" width="100px" loading="lazy" />
+            <img src="images/froggerGame03.png" width="100px" loading="lazy" />
+            <img src="images/froggerGame02.png" width="100px" loading="lazy" />
           </div>
           <div class="portfolio_photosDiv tipCalculator">
             <img
               src="images/tipCalculator01.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
             <img
               src="images/tipCalculator02.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
@@ -344,13 +651,11 @@
           <div class="portfolio_photosDiv registrationPage">
             <img
               src="images/registrationPage02.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
             <img
               src="images/registrationPage01.png"
-              alt="This is my Portfolio Photo"
               width="100px"
               loading="lazy"
             />
@@ -358,11 +663,11 @@
         </article>
       </section>
       <section id="skillSec">
-        <div id="skillText">НАВЫКИ</div>
+        <div id="skillText">SKILLS</div>
         <div class="skills rightSkills">
           <p>React JS</p>
           <p>JavaScript</p>
-          <p>CSS3</p>
+          <p>CSS3 (SASS|SCSS)</p>
           <p>HTML5</p>
         </div>
         <div class="skills">
@@ -373,35 +678,22 @@
         </div>
       </section>
       <section id="contacts">
-        <div id="contactText">КОНТАКТЫ</div>
+        <div id="contactText">CONTACTS</div>
         <div class="contactIcons">
           <a href="https://github.com/Ismoil00" target="_blank"
-            ><img
-              src="svgs/GitHub.svg"
-              alt="GitHub Icon"
-              width="70"
-              class="icons gitHubIcon"
+            ><img src="svgs/GitHub.svg" width="70" class="icons gitHubIcon"
           /></a>
           <a href="mailto:sharipovismoil01@gmail.com" target="_blank"
-            ><img
-              src="svgs/email.svg"
-              alt="Email Icon"
-              width="70"
-              class="icons emailIcon"
+            ><img src="svgs/email.svg" width="70" class="icons emailIcon"
           /></a>
           <a href="tel:+992907070816" target="_blank"
-            ><img
-              src="svgs/phone.svg"
-              alt="Phone Icon"
-              width="70"
-              class="icons phoneIcon"
+            ><img src="svgs/phone.svg" width="70" class="icons phoneIcon"
           /></a>
           <a
             href="https://www.instagram.com/4futuremillionaires/"
             target="_blank"
             ><img
               src="svgs/instagram.svg"
-              alt="Instagram Icon"
               width="70"
               class="icons instagramIcon"
           /></a>
